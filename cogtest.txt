@@ -1,0 +1,1 @@
+gdalwarp /vsicurl/https://public.services.aad.gov.au/datasets/science/GEBCO_2021_GEOTIFF/GEBCO_2021.tif -te -180 -90 180 90 -ts 1024 512 -of COG  cogtest.tif
